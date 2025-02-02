@@ -1,20 +1,20 @@
 #!/bin/bash
 
-# get_mysql_root_password() {
+ get_mysql_root_password() {
   
-#   print_banner
-#   printf "${WHITE} 💻 Insira senha para o usuario Deploy e Banco de Dados (Não utilizar caracteres especiais):${GRAY_LIGHT}"
-#   printf "\n\n"
-#   read -p "> " mysql_root_password
-# }
+   print_banner
+   printf "${WHITE} 💻 Insira senha para o usuario Deploy e Banco de Dados (Não utilizar caracteres especiais):${GRAY_LIGHT}"
+   printf "\n\n"
+   read -p "> " mysql_root_password
+ }
 
-# get_link_git() {
+ get_link_git() {
   
-#   print_banner
-#   printf "${WHITE} 💻 Insira o link do Github da sua instalação que deseja instalar:${GRAY_LIGHT}"
-#   printf "\n\n"
-#   read -p "> " link_git
-# }
+   print_banner
+   printf "${WHITE} 💻 Insira o link do Github da sua instalação que deseja instalar:${GRAY_LIGHT}"
+   printf "\n\n"
+   read -p "> " link_git
+ }
 
 get_instancia_add() {
   
